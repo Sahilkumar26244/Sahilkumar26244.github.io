@@ -1,0 +1,31 @@
+.skills{
+    width: 100%;
+    margin: 3rem 0;
+    /* border: 1px solid white; */
+    margin: auto;
+    padding: 20px;
+    
+}
+.skills-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 10px;
+    justify-content: center;
+    grid-gap:40px;
+    padding: 0px 0px 0px 60px;
+    
+}
+.skills-container>div{
+    border: 1px solid #333;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px 10px 7px;
+    gap:10px
+}
+.skills-container>div>img{
+    width: 40%;
+    margin-left: 25px;
+}

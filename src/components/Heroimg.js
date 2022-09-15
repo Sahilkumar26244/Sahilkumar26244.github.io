@@ -15,9 +15,9 @@ export const Heroimg = () => {
           <p>HI 👋 , I AM <strong>SAHIL</strong></p>
           <h1>MERN Developer .</h1>
           <div>
-            <Link to="/project" className="btn" >
-                Projects
-            </Link>
+            <a href="https://drive.google.com/file/d/1kME-CswR7QdcIpB5SSK33ZpbLnHS4Hmq/view?usp=sharing" className="btn" >
+                Resume
+            </a>
             <Link to="/contact" className="btn btn-light" >
                 Contacts
             </Link>

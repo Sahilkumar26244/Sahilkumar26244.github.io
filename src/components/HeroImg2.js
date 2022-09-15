@@ -8,7 +8,6 @@ export const HeroImg2 = ({heading,text}) => {
             <h1>{heading}</h1>
             <p>{text}</p>
         </div>
-        
     </div>
   )
 }
