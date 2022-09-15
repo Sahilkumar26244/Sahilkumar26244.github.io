@@ -29,3 +29,15 @@
     width: 40%;
     margin-left: 25px;
 }
+
+@media screen and (max-width:740px) {
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+        justify-content: center;
+        grid-gap:40px;
+        padding: 0px 0px 0px 60px;
+        
+    }
+}
