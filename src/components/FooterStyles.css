@@ -34,6 +34,8 @@
 }
 .social{
     margin-top: 1rem;
+    display: flex;
+    gap: 40px;
 }
 
 h4{
