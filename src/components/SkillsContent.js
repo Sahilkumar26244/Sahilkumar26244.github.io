@@ -41,6 +41,10 @@ export const SkillsContent = () => {
                 <img src="https://i.pinimg.com/originals/41/95/cf/4195cf989fac0128a89669f40a1e3496.png" alt="img" />
                 <p>BootStrap</p>
             </div>
+            <div>
+                <img src="https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS" alt="img" />
+                <p>Chakra UI</p>
+            </div>
            
         </div>
     </div>

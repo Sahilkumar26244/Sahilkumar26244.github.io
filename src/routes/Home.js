@@ -15,11 +15,11 @@ export const Home = () => {
         <Navbar/>
         <Heroimg/>
         <br/>
-        <HeroImg2 heading="PROJECTS." text="Some of my most recent works" />
-        <Work/>
-        <br/>
         <HeroImg2 heading="ABOUT." text="Im a friendly Front-End Developer" />
         <AboutContent/>
+        <br/>
+        <HeroImg2 heading="PROJECTS." text="Some of my most recent works" />
+        <Work/>
         <br/>
         <HeroImg2 heading="SKILLS." text="Tools that I have to use" />
         <SkillsContent/>
@@ -31,3 +31,5 @@ export const Home = () => {
     </div>
   )
 }
+
+

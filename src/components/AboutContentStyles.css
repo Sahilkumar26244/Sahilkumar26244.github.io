@@ -35,14 +35,15 @@
     border: 1px solid #333;
 }
 .right .top{
-    grid-column: 1 / span 8;
+    grid-column: 1 / span 18;
     grid-row: 1;
     padding: 20%;
     z-index: 6;
+    
 }
 
 .right .bottom{
-    grid-column: 4 / -1;
+    grid-column: 6 / -1;
     grid-row: 1;
     z-index: 5;
 }

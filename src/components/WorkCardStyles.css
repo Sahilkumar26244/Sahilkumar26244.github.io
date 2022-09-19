@@ -9,13 +9,19 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap:40px;
     padding-bottom: 5rem;
+    /* border:1px solid white */
+    
 }
 .project-card{
     background: #1a1919;
     padding: 1.2rem 1rem;
+    border: 1px solid white;
+    height: min-content;
+    
 }
 .project-card img{
     width: 100%;
+    height: auto;
 }
 .project-title{
     color: #fff;
