@@ -1,5 +1,7 @@
 import React from 'react';
+import { Calender } from './Calender';
 import "./SkillContentStyles.css"
+import { Stats } from './Stats';
 
 export const SkillsContent = () => {
   return (
@@ -46,6 +48,10 @@ export const SkillsContent = () => {
                 <p>Chakra UI</p>
             </div>
            
+        </div>
+        <div className='githubContainer' >
+            <Calender/>
+            <Stats/>
         </div>
     </div>
   )
